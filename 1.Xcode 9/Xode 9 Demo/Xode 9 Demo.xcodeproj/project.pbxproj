@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A48686E01FAC566000E735C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48686DE1FAC566000E735C3 /* Main.storyboard */; };
+		A48686E21FAC566000E735C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A48686E11FAC566000E735C3 /* Assets.xcassets */; };
+		A48686E51FAC566000E735C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A48686E31FAC566000E735C3 /* LaunchScreen.storyboard */; };
+		A48686E81FAC566000E735C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A48686E71FAC566000E735C3 /* main.m */; };
+		A48686F21FAC566000E735C3 /* Xode_9_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48686F11FAC566000E735C3 /* Xode_9_DemoTests.m */; };
+		A48686FD1FAC566100E735C3 /* Xode_9_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A48686FC1FAC566100E735C3 /* Xode_9_DemoUITests.m */; };
+		A48687101FAC569200E735C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A486870B1FAC569100E735C3 /* AppDelegate.m */; };
+		A48687111FAC569200E735C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A486870C1FAC569100E735C3 /* ViewController.m */; };
+		A48687141FAC56FD00E735C3 /* Address-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48687131FAC56FD00E735C3 /* Address-Swift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A48686EE1FAC566000E735C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48686CD1FAC566000E735C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48686D41FAC566000E735C3;
+			remoteInfo = "Xode 9 Demo";
+		};
+		A48686F91FAC566000E735C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A48686CD1FAC566000E735C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A48686D41FAC566000E735C3;
+			remoteInfo = "Xode 9 Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A48686D51FAC566000E735C3 /* Xode 9 Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xode 9 Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48686DF1FAC566000E735C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A48686E11FAC566000E735C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A48686E41FAC566000E735C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A48686E61FAC566000E735C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48686E71FAC566000E735C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A48686ED1FAC566000E735C3 /* Xode 9 DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xode 9 DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48686F11FAC566000E735C3 /* Xode_9_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xode_9_DemoTests.m; sourceTree = "<group>"; };
+		A48686F31FAC566000E735C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48686F81FAC566000E735C3 /* Xode 9 DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xode 9 DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48686FC1FAC566100E735C3 /* Xode_9_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xode_9_DemoUITests.m; sourceTree = "<group>"; };
+		A48686FE1FAC566100E735C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A486870B1FAC569100E735C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A486870C1FAC569100E735C3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A486870D1FAC569100E735C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A486870E1FAC569100E735C3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A48687121FAC56FC00E735C3 /* Xode 9 Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Xode 9 Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		A48687131FAC56FD00E735C3 /* Address-Swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Address-Swift.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A48686D21FAC566000E735C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48686EA1FAC566000E735C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48686F51FAC566000E735C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A48686CC1FAC566000E735C3 = {
+			isa = PBXGroup;
+			children = (
+				A48686D71FAC566000E735C3 /* Xode 9 Demo */,
+				A48686F01FAC566000E735C3 /* Xode 9 DemoTests */,
+				A48686FB1FAC566000E735C3 /* Xode 9 DemoUITests */,
+				A48686D61FAC566000E735C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A48686D61FAC566000E735C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A48686D51FAC566000E735C3 /* Xode 9 Demo.app */,
+				A48686ED1FAC566000E735C3 /* Xode 9 DemoTests.xctest */,
+				A48686F81FAC566000E735C3 /* Xode 9 DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A48686D71FAC566000E735C3 /* Xode 9 Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A486870A1FAC569100E735C3 /* Objective-C */,
+				A486870F1FAC569200E735C3 /* Swift */,
+				A48686DE1FAC566000E735C3 /* Main.storyboard */,
+				A48686E11FAC566000E735C3 /* Assets.xcassets */,
+				A48686E31FAC566000E735C3 /* LaunchScreen.storyboard */,
+				A48686E61FAC566000E735C3 /* Info.plist */,
+				A48686E71FAC566000E735C3 /* main.m */,
+			);
+			path = "Xode 9 Demo";
+			sourceTree = "<group>";
+		};
+		A48686F01FAC566000E735C3 /* Xode 9 DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A48686F11FAC566000E735C3 /* Xode_9_DemoTests.m */,
+				A48686F31FAC566000E735C3 /* Info.plist */,
+			);
+			path = "Xode 9 DemoTests";
+			sourceTree = "<group>";
+		};
+		A48686FB1FAC566000E735C3 /* Xode 9 DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A48686FC1FAC566100E735C3 /* Xode_9_DemoUITests.m */,
+				A48686FE1FAC566100E735C3 /* Info.plist */,
+			);
+			path = "Xode 9 DemoUITests";
+			sourceTree = "<group>";
+		};
+		A486870A1FAC569100E735C3 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				A486870D1FAC569100E735C3 /* AppDelegate.h */,
+				A486870B1FAC569100E735C3 /* AppDelegate.m */,
+				A486870E1FAC569100E735C3 /* ViewController.h */,
+				A486870C1FAC569100E735C3 /* ViewController.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+		A486870F1FAC569200E735C3 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A48687131FAC56FD00E735C3 /* Address-Swift.swift */,
+				A48687121FAC56FC00E735C3 /* Xode 9 Demo-Bridging-Header.h */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48686D41FAC566000E735C3 /* Xode 9 Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48687011FAC566100E735C3 /* Build configuration list for PBXNativeTarget "Xode 9 Demo" */;
+			buildPhases = (
+				A48686D11FAC566000E735C3 /* Sources */,
+				A48686D21FAC566000E735C3 /* Frameworks */,
+				A48686D31FAC566000E735C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xode 9 Demo";
+			productName = "Xode 9 Demo";
+			productReference = A48686D51FAC566000E735C3 /* Xode 9 Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A48686EC1FAC566000E735C3 /* Xode 9 DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48687041FAC566100E735C3 /* Build configuration list for PBXNativeTarget "Xode 9 DemoTests" */;
+			buildPhases = (
+				A48686E91FAC566000E735C3 /* Sources */,
+				A48686EA1FAC566000E735C3 /* Frameworks */,
+				A48686EB1FAC566000E735C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48686EF1FAC566000E735C3 /* PBXTargetDependency */,
+			);
+			name = "Xode 9 DemoTests";
+			productName = "Xode 9 DemoTests";
+			productReference = A48686ED1FAC566000E735C3 /* Xode 9 DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A48686F71FAC566000E735C3 /* Xode 9 DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A48687071FAC566100E735C3 /* Build configuration list for PBXNativeTarget "Xode 9 DemoUITests" */;
+			buildPhases = (
+				A48686F41FAC566000E735C3 /* Sources */,
+				A48686F51FAC566000E735C3 /* Frameworks */,
+				A48686F61FAC566000E735C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A48686FA1FAC566000E735C3 /* PBXTargetDependency */,
+			);
+			name = "Xode 9 DemoUITests";
+			productName = "Xode 9 DemoUITests";
+			productReference = A48686F81FAC566000E735C3 /* Xode 9 DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A48686CD1FAC566000E735C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Cain Luo";
+				TargetAttributes = {
+					A48686D41FAC566000E735C3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					A48686EC1FAC566000E735C3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A48686D41FAC566000E735C3;
+					};
+					A48686F71FAC566000E735C3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A48686D41FAC566000E735C3;
+					};
+				};
+			};
+			buildConfigurationList = A48686D01FAC566000E735C3 /* Build configuration list for PBXProject "Xode 9 Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A48686CC1FAC566000E735C3;
+			productRefGroup = A48686D61FAC566000E735C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48686D41FAC566000E735C3 /* Xode 9 Demo */,
+				A48686EC1FAC566000E735C3 /* Xode 9 DemoTests */,
+				A48686F71FAC566000E735C3 /* Xode 9 DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A48686D31FAC566000E735C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48686E51FAC566000E735C3 /* LaunchScreen.storyboard in Resources */,
+				A48686E21FAC566000E735C3 /* Assets.xcassets in Resources */,
+				A48686E01FAC566000E735C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48686EB1FAC566000E735C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48686F61FAC566000E735C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48686D11FAC566000E735C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48687101FAC569200E735C3 /* AppDelegate.m in Sources */,
+				A48686E81FAC566000E735C3 /* main.m in Sources */,
+				A48687141FAC56FD00E735C3 /* Address-Swift.swift in Sources */,
+				A48687111FAC569200E735C3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48686E91FAC566000E735C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48686F21FAC566000E735C3 /* Xode_9_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48686F41FAC566000E735C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A48686FD1FAC566100E735C3 /* Xode_9_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A48686EF1FAC566000E735C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48686D41FAC566000E735C3 /* Xode 9 Demo */;
+			targetProxy = A48686EE1FAC566000E735C3 /* PBXContainerItemProxy */;
+		};
+		A48686FA1FAC566000E735C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A48686D41FAC566000E735C3 /* Xode 9 Demo */;
+			targetProxy = A48686F91FAC566000E735C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A48686DE1FAC566000E735C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48686DF1FAC566000E735C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A48686E31FAC566000E735C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A48686E41FAC566000E735C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A48686FF1FAC566100E735C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A48687001FAC566100E735C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A48687021FAC566100E735C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Xode 9 Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xode-9-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Xode 9 Demo/Swift/Xode 9 Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A48687031FAC566100E735C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Xode 9 Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xode-9-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Xode 9 Demo/Swift/Xode 9 Demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A48687051FAC566100E735C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Xode 9 DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xode-9-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xode 9 Demo.app/Xode 9 Demo";
+			};
+			name = Debug;
+		};
+		A48687061FAC566100E735C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Xode 9 DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xode-9-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xode 9 Demo.app/Xode 9 Demo";
+			};
+			name = Release;
+		};
+		A48687081FAC566100E735C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Xode 9 DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xode-9-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xode 9 Demo";
+			};
+			name = Debug;
+		};
+		A48687091FAC566100E735C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Xode 9 DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Xode-9-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Xode 9 Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A48686D01FAC566000E735C3 /* Build configuration list for PBXProject "Xode 9 Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48686FF1FAC566100E735C3 /* Debug */,
+				A48687001FAC566100E735C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48687011FAC566100E735C3 /* Build configuration list for PBXNativeTarget "Xode 9 Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48687021FAC566100E735C3 /* Debug */,
+				A48687031FAC566100E735C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48687041FAC566100E735C3 /* Build configuration list for PBXNativeTarget "Xode 9 DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48687051FAC566100E735C3 /* Debug */,
+				A48687061FAC566100E735C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A48687071FAC566100E735C3 /* Build configuration list for PBXNativeTarget "Xode 9 DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48687081FAC566100E735C3 /* Debug */,
+				A48687091FAC566100E735C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A48686CD1FAC566000E735C3 /* Project object */;
+}
