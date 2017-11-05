@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *string = @"123123123123";
+
+    
+    NSString *numberString = string;
+    
 }
 
 
