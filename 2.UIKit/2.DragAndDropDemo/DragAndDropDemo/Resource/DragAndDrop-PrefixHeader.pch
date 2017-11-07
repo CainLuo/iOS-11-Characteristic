@@ -1,0 +1,14 @@
+//
+//  DragAndDrop-PrefixHeader.pch
+//  DragAndDropDemo
+//
+//  Created by Cain Luo on 2017/11/7.
+//  Copyright © 2017年 Cain Luo. All rights reserved.
+//
+
+#ifndef DragAndDrop_PrefixHeader_pch
+#define DragAndDrop_PrefixHeader_pch
+
+#define LIST_TYPE @"com.list.model"
+
+#endif /* DragAndDrop_PrefixHeader_pch */
