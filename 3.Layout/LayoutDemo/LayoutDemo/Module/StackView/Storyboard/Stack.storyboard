@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Stack View Controller-->
+        <scene sceneID="MyV-V8-FNJ">
+            <objects>
+                <viewController storyboardIdentifier="StackViewController" id="tix-mx-W0t" customClass="StackViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qDn-DO-LgG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ivG-fJ-Tp2">
+                                <rect key="frame" x="142.5" y="318.5" width="90" height="30"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun" translatesAutoresizingMaskIntoConstraints="NO" id="vgt-JO-hrz">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon" translatesAutoresizingMaskIntoConstraints="NO" id="Do0-yg-sDR">
+                                        <rect key="frame" x="30" y="0.0" width="30" height="30"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="lno-aV-1tw">
+                                        <rect key="frame" x="60" y="0.0" width="30" height="30"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMX-hm-fdn">
+                                <rect key="frame" x="171.5" y="368.5" width="31" height="30"/>
+                                <state key="normal" title="转变"/>
+                                <connections>
+                                    <action selector="changeAction:" destination="tix-mx-W0t" eventType="touchUpInside" id="JEz-kR-Pav"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69411764710000001" green="0.66666666669999997" blue="0.62352941179999999" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="17f-HI-ZQb" firstAttribute="trailing" secondItem="ivG-fJ-Tp2" secondAttribute="trailing" priority="249" id="5VF-vu-QEr"/>
+                            <constraint firstItem="ivG-fJ-Tp2" firstAttribute="centerY" secondItem="qDn-DO-LgG" secondAttribute="centerY" id="5xE-45-2I9"/>
+                            <constraint firstItem="ivG-fJ-Tp2" firstAttribute="centerX" secondItem="17f-HI-ZQb" secondAttribute="centerX" id="Aut-OI-SFB"/>
+                            <constraint firstItem="iMX-hm-fdn" firstAttribute="top" secondItem="ivG-fJ-Tp2" secondAttribute="bottom" constant="20" id="Udk-RT-PIk"/>
+                            <constraint firstItem="ivG-fJ-Tp2" firstAttribute="leading" secondItem="17f-HI-ZQb" secondAttribute="leading" priority="249" id="cqd-wT-hqm"/>
+                            <constraint firstAttribute="bottom" secondItem="ivG-fJ-Tp2" secondAttribute="bottom" priority="249" id="gps-pW-zCd"/>
+                            <constraint firstItem="ivG-fJ-Tp2" firstAttribute="top" secondItem="qDn-DO-LgG" secondAttribute="top" priority="249" id="jcd-aq-SjL"/>
+                            <constraint firstItem="iMX-hm-fdn" firstAttribute="centerX" secondItem="ivG-fJ-Tp2" secondAttribute="centerX" id="yfc-2V-ncD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="17f-HI-ZQb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vb9-6h-z02">
+                        <nil key="title"/>
+                        <view key="titleView" contentMode="scaleToFill" id="CWF-12-HQY">
+                            <rect key="frame" x="187.5" y="22" width="0.0" height="0.0"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun" translatesAutoresizingMaskIntoConstraints="NO" id="qD6-ve-uNG">
+                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="qD6-ve-uNG" secondAttribute="height" multiplier="1:1" id="U8a-Bq-5K5"/>
+                                        <constraint firstAttribute="width" constant="44" id="gTQ-lP-SUv"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sun And Star Moon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Dh-Zg-XjS">
+                                    <rect key="frame" x="30" y="2" width="184" height="26"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="1Dh-Zg-XjS" firstAttribute="centerY" secondItem="qD6-ve-uNG" secondAttribute="centerY" id="REd-Cu-qN0"/>
+                                <constraint firstItem="qD6-ve-uNG" firstAttribute="leading" secondItem="CWF-12-HQY" secondAttribute="leading" id="bTm-j2-Ar9"/>
+                                <constraint firstItem="qD6-ve-uNG" firstAttribute="top" secondItem="CWF-12-HQY" secondAttribute="top" id="dyJ-97-hQR"/>
+                                <constraint firstAttribute="bottom" secondItem="qD6-ve-uNG" secondAttribute="bottom" id="nr6-7c-bbn"/>
+                                <constraint firstItem="1Dh-Zg-XjS" firstAttribute="leading" secondItem="qD6-ve-uNG" secondAttribute="trailing" id="ryJ-pB-IDp"/>
+                                <constraint firstAttribute="trailing" secondItem="1Dh-Zg-XjS" secondAttribute="trailing" id="vjW-Iy-aWL"/>
+                            </constraints>
+                        </view>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="stackView" destination="ivG-fJ-Tp2" id="vrp-D7-HLp"/>
+                        <outlet property="sunImageView" destination="vgt-JO-hrz" id="nRX-w3-upy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVS-zX-c3o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="802" y="880"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zWc-td-Prg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aHQ-bW-Tld" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CwA-4u-CL8">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tix-mx-W0t" kind="relationship" relationship="rootViewController" id="ati-sF-297"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqz-KC-rRX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147.19999999999999" y="880.65967016491766"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="moon" width="30" height="30"/>
+        <image name="star" width="30" height="29"/>
+        <image name="sun" width="30" height="30"/>
+    </resources>
+</document>
