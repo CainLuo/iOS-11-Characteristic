@@ -1,0 +1,14 @@
+//
+//  DragDropUp-PrefixHeader.pch
+//  DragDropUpDemo
+//
+//  Created by Cain Luo on 2017/11/26.
+//  Copyright © 2017年 Cain Luo. All rights reserved.
+//
+
+#ifndef DragDropUp_PrefixHeader_pch
+#define DragDropUp_PrefixHeader_pch
+
+#import "YYModel.h"
+
+#endif /* DragDropUp_PrefixHeader_pch */
