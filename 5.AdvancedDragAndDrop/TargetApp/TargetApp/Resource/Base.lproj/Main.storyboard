@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Target View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TargetViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a3T-n8-y8d">
+                                <rect key="frame" x="167" y="288" width="500" height="556"/>
+                                <color key="backgroundColor" red="0.25882352939999997" green="0.41568627450000001" blue="0.70196078429999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BV-Rs-TA4">
+                                <rect key="frame" x="360" y="880" width="114" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Clear Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clearAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2FW-og-Tst"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AR2-NT-tZd">
+                                <rect key="frame" x="364.5" y="123" width="105.5" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a3T-n8-y8d" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="1CZ-MS-SVB"/>
+                            <constraint firstItem="a3T-n8-y8d" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="A6c-mU-LHP"/>
+                            <constraint firstItem="5BV-Rs-TA4" firstAttribute="centerX" secondItem="a3T-n8-y8d" secondAttribute="centerX" id="AiC-3x-g2o"/>
+                            <constraint firstItem="5BV-Rs-TA4" firstAttribute="top" secondItem="a3T-n8-y8d" secondAttribute="bottom" constant="36" id="BYq-8E-dM7"/>
+                            <constraint firstItem="a3T-n8-y8d" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.6" id="NKQ-AO-RzN"/>
+                            <constraint firstItem="a3T-n8-y8d" firstAttribute="top" secondItem="AR2-NT-tZd" secondAttribute="bottom" constant="111" id="S1j-5J-gpf"/>
+                            <constraint firstItem="a3T-n8-y8d" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="U8t-8U-oQZ"/>
+                            <constraint firstItem="AR2-NT-tZd" firstAttribute="centerX" secondItem="a3T-n8-y8d" secondAttribute="centerX" id="yO7-ub-T1Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="clearButton" destination="5BV-Rs-TA4" id="mL4-l1-QLd"/>
+                        <outlet property="imageView" destination="a3T-n8-y8d" id="1Qj-wS-8yJ"/>
+                        <outlet property="titleLabel" destination="AR2-NT-tZd" id="OU5-JI-IRV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
