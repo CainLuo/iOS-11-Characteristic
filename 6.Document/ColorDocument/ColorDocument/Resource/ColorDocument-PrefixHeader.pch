@@ -1,0 +1,17 @@
+
+//
+//  ColorDocument-PrefixHeader.pch
+//  ColorDocument
+//
+//  Created by CainLuo on 2017/12/14.
+//  Copyright © 2017年 EStrongersoft Co., LTD. All rights reserved.
+//
+
+#ifndef ColorDocument_PrefixHeader_pch
+#define ColorDocument_PrefixHeader_pch
+
+#import "UIViewController+ColorViewController.h"
+
+#import "UIImage+ColorImage.h"
+
+#endif /* ColorDocument_PrefixHeader_pch */
